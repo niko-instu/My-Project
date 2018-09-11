@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Methods</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="color">
+                <span class="white" title="Standard" onclick="standardMode();"></span>
+                <span class="black" title="Night" onclick="nightMode();"></span>
+            </div>
+            <input type="checkbox" id="menu_btn" />
+            <label for="menu_btn">&#8801;</label>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                </ul>
+            </nav>
+            <header class="profile">
+                <section>
+                    <img src="images/niko.jpg" />                
+                    <div class="name">
+                        <h2>Rahul Kumar
+                            <br>
+                            <span>Website Developer</span>
+                        </h2>
+                    </div>
+                </section>
+            </header>
+            <div class="body">
+                <p class="h2">Looking for a Website Developer?</p>
+                <p class="p">I'm a  Website Developer living in Delhi, India. I design & build user interfaces. I create beautiful & functional websites for small businesses.</p>
+            </div>
+            <footer>
+                <p class="h1">Contact Me</p>
+                <!--<ul class="footer_menu">
+                    <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i>
+</a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+</a></li>
+                    <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i>
+</a></li>
+                    <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i>
+</a></li>
+                </ul>-->
+                <div class="icons">
+                <a href="#" class="a"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="#" class="a"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a href="#" class="a"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#" class="a"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                </div>
+            </footer>
+        </div><!-- end of container -->
+    </main><!-- end of main -->
+    <script type="text/javascript">
+        function standardMode(){
+            document.body.style.backgroundColor="#fff";
+        }
+
+        function nightMode(){         
+            document.body.style.backgroundColor="#444";
+        }
+    </script>
+</body>
+</html>
